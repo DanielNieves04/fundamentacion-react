@@ -1,0 +1,102 @@
+.projectNew{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 1px solid #ddd;
+}
+
+.projectNew h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+.projectNew h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.projectNew textarea{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 10vh;
+    padding: 8px;
+    outline: none;
+    resize: none;
+    overflow-wrap: break-word;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectNew button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projectNew button:hover {
+    background-color: #555;
+  }
+
+.projectNew ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+.projectNew li{
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.criterioAlternativa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 30%;
+    background-color: #ddd;
+}
+
+.alternativa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.criterio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agregar{
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.agregar:hover{
+    background-color: #fff;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    width: 10%;
+}
+  
+.deleteIcon:hover {
+    font-size: 16px;
+}

@@ -1,0 +1,47 @@
+.projectList {
+    width: 100%;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 1px solid #ddd;
+  }
+  
+  .projectList h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .projectList ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+
+  .projectList li {
+      background-color: #f9f9f9;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .projectList li:hover {
+      background-color: #fff;
+  }
+  
+  .deleteIcon {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .deleteIcon:hover {
+    transform: scale(1.2);
+  }
+
+  .link{
+    text-decoration: none;
+    color: inherit;
+  }
